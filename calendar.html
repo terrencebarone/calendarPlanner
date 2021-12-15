@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/calendar.css">
+    <title>Document</title>
+</head>
+<body>
+   <div id="main-grid">
+       <img id="left-arrow" src="images/leftArrow.png" alt="">
+       <div id="timeline-date-container">
+            <h1 id="chosenDate-timelineHeader"></h1>
+       </div>
+       <div id="monthYear-container">
+           <h1 class="m-y-text" id="month">Month</h1>
+           <h1 class="m-y-text" id="year">Year</h1>
+       </div>
+       <img src="images/rightArrow.png" alt="" id="right-arrow">
+       <button id="close-miniCalendar-button">Back</button>
+       <div id="mini-calendar">
+            <div id="date-info-container">
+                <h1 class="dateIntoText">Date:</h1>
+                <h1 class="dateIntoText" id="chosenDate"></h1>
+                <div id="event-info-container">
+                </div>
+            </div>
+       </div>
+       <div id="main-calendar-container">
+           <div class="calendar">
+            <div id="sunday" class="calendar-spot"><h1 class="calendar-header">S</h1></div>
+            <div id="monday" class="calendar-spot"><h1 class="calendar-header">M</h1></div>
+            <div id="tuesday" class="calendar-spot"><h1 class="calendar-header">T</h1></div>
+            <div id="wednesday" class="calendar-spot"><h1 class="calendar-header">W</h1></div>
+            <div id="thursday" class="calendar-spot"><h1 class="calendar-header">T</h1></div>
+            <div id="friday" class="calendar-spot"><h1 class="calendar-header">F</h1></div>
+            <div id="saturday" class="calendar-spot"><h1 class="calendar-header">S</h1></div>  
+            <div id="board1" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board2" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board3" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board4" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board5" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board6" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board7" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board8" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board9" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board10" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board11" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board12" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board13" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board14" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board15" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board16" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board17" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board18" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board19" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>    
+            <div id="board20" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board21" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board22" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board23" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board24" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board25" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board26" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board27" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board28" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board29" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board30" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board31" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board32" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board33" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board34" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+            <div id="board35" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>
+            <div id="board36" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>
+            <div id="board37" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>
+            <div id="board38" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>
+            <div id="board39" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>
+            <div id="board40" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>
+            <div id="board41" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>
+            <div id="board42" class="calendar-spot"><div class="dayNum-container"><h1 class="dayNum"></h1></div></div>   
+        </div>
+       </div>
+       <img src="images/addEvent.png" alt="" id="add-event-button">
+       <button id="switch-to-timeline-button">Timeline</button>
+       <div id="timeline-container">
+           <div id="timeline">
+                <div id="timeline-hours">
+                    <div id="hour1">
+                        <h1 class="hour-text">12AM</h1>
+                    </div>
+                    <div id="hour2">
+                        <h1 class="hour-text">1</h1>
+                    </div>
+                    <div id="hour3">
+                        <h1 class="hour-text">2</h1>
+                    </div>
+                    <div id="hour4">
+                        <h1 class="hour-text">3</h1>
+                    </div>
+                    <div id="hour5">
+                        <h1 class="hour-text">4</h1>
+                    </div>
+                    <div id="hour6">
+                        <h1 class="hour-text">5</h1>
+                    </div>
+                    <div id="hour7">
+                        <h1 class="hour-text">6</h1>
+                    </div>
+                    <div id="hour8">
+                        <h1 class="hour-text">7</h1>
+                    </div>
+                    <div id="hour9">
+                        <h1 class="hour-text">8</h1>
+                    </div>
+                    <div id="hour10">
+                        <h1 class="hour-text">9</h1>
+                    </div>
+                    <div id="hour11">
+                        <h1 class="hour-text">10</h1>
+                    </div>
+                    <div id="hour12">
+                        <h1 class="hour-text">11</h1>
+                    </div>
+                    <div id="hour13">
+                        <h1 class="hour-text">12PM</h1>
+                    </div>
+                    <div id="hour14">
+                        <h1 class="hour-text">1</h1>
+                    </div>
+                    <div id="hour15">
+                        <h1 class="hour-text">2</h1>
+                    </div>
+                    <div id="hour16">
+                        <h1 class="hour-text">3</h1>
+                    </div>
+                    <div id="hour17">
+                        <h1 class="hour-text">4</h1>
+                    </div>
+                    <div id="hour18">
+                        <h1 class="hour-text">5</h1>
+                    </div>
+                    <div id="hour19">
+                        <h1 class="hour-text">6</h1>
+                    </div>
+                    <div id="hour20">
+                        <h1 class="hour-text">7</h1>
+                    </div>
+                    <div id="hour21">
+                        <h1 class="hour-text">8</h1>
+                    </div>
+                    <div id="hour22">
+                        <h1 class="hour-text">9</h1>
+                    </div>
+                    <div id="hour23">
+                        <h1 class="hour-text">10</h1>
+                    </div>
+                    <div id="hour24">
+                        <h1 class="hour-text">11</h1>
+                    </div>
+                    <div id="hour25">
+                        <h1 class="hour-text">12AM</h1>
+                    </div>
+                  
+                </div>
+                <div id="timeline-minutes"></div>
+           </div>
+       </div>
+       <div id="addEvent-form-container">
+           
+            <form action="" name="evenForm" id="addEvent-form">
+                <label for="userinput">Date Of Event:</label>
+                <input type="date" name="userinput" id="date-input" required>
+                <label for="userEventReason">Name Of Event:</label>
+                <input type="text" name="userEventReason"id="event-input" required>
+                <label for="userEventStart">Event Start Time:</label>
+                <input type="time" name="userEventStart" id="eventStart-input" required>
+                <label for="userEventEnd">Event End Time:</label>
+                <input type="time"name="userEventEnd" id="eventEnd-input" required>
+                <div id="formButtonContainer">
+                    <button type="submit" id="addEventFormButton" >Add Event</button>
+                    <button type="button" id="addEventFormBackButton" >Go Back</button>
+                </div>
+            </form>
+             
+        </div>
+           
+      
+    </div>
+   <script src="Javascript/eventListeners.js"></script>
+   <script src="Javascript/calendar.js"></script>
+</body>
+</html>
